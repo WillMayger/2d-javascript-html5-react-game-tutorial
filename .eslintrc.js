@@ -6,7 +6,13 @@ module.exports = {
     "extends": "airbnb",
     "globals": {
         "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
+        "SharedArrayBuffer": "readonly",
+        "window": true,
+        "document": true,
+        "it": true,
+        "describe": true,
+        "test": true,
+        "expect": true,
     },
     "parserOptions": {
         "ecmaFeatures": {
@@ -19,5 +25,7 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "react/jsx-filename-extension": "off",
+        "react/forbid-prop-types": "off",
     }
 };

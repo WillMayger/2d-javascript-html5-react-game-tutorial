@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  background-color: #568cd2;
+  height: 100vh;
+  width: 100vw;
+}
+
+.character {
+  position: absolute;
+  display: block;
+  height: 100px;
+  width: 100px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffd600;
+}
+
+.stage {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  width: calc(10 * 100vw);
+}
+
+.block {
+  position: absolute;
+  display: block;
+  height: 200px;
+  width: 80px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+}
